@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1440px) {
+    body {
+        background-color: red;
+    }
+
+    p{
+        font-weight: 24px;
+    }
+
+    img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+
+    p{
+        font-weight: 18px;
+    }
+
+    img {
+        width: 70%;
+    }
+  }
+
+@media only screen and (max-width: 425px) {
+    body {
+        background-color: blue;
+    }
+
+    p{
+        font-weight: 14px;
+    }
+
+    img {
+        width: 100%;
+    }
+  }
